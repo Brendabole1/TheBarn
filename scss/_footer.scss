@@ -1,0 +1,15 @@
+footer {
+    text-align: right;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+    font-size: $footerside;
+    text-transform: capitalize;
+}
+
+.redes a i {
+   @extend %iconos;
+}
+.redes-contacto {
+    margin-top: 1.0em;
+}

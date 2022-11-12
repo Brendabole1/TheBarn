@@ -1,0 +1,29 @@
+$colortitulo: rgb(6, 119, 6);
+
+$sidetitulo: 2rem;
+
+$titulosp: 2rem;
+
+$background: rgb(218, 207, 182);
+
+$footerside: 2em;
+
+$fontside: 'Alegreya SC', serif;
+
+$fontsidebody:'Neucha', cursive;
+
+%iconos {
+    margin-top: 0em;
+    color: rgb(63, 100, 63);
+    letter-spacing: 5px;
+    margin-bottom: 0em;
+
+    &:hover { font-size: 1em;
+    transform: scale(1.2);
+    transition: all 1s ease;
+    color: rgb(81, 135, 81);
+    letter-spacing: 5px;
+
+}
+
+}

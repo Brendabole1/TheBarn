@@ -1,0 +1,39 @@
+.navbar {
+    background: $background;
+    background: linear-gradient(90deg, rgba(207, 195, 164, 1) 5%, rgba(219, 208, 182, 1) 31%, rgba(107, 131, 102, 0.7083333333333333) 57%, rgba(5, 131, 79, 0.45) 91%);
+    filter: opacity(0.7);
+
+}
+
+
+@mixin tamanos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+.img {
+    @include tamanos(80px,80px );
+    color: rgb(11, 68, 11);
+}
+   
+
+.img:hover {
+    filter: opacity(0.5);
+
+}
+
+.nav-link {
+    font-family: $fontside;
+    font-size: 1.1em;
+    color: rgb(11, 68, 11);
+
+}
+
+.nav-link:hover {
+    color: rgb(69, 65, 24);
+    text-shadow: 0 0 5px hwb(127 23% 57%);
+    text-transform: capitalize;
+}
+
+.navbar-toggler-icon:hover {
+    text-shadow: 0 0 5px hwb(127 23% 57%);
+}
